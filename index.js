@@ -25,7 +25,7 @@ app.use(
     cors(),
     bodyParser.json(),
     expressGraphQL({
-        schema: {},
+        schema: { },
         graphiql: true
     })
 );
